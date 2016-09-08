@@ -1,6 +1,6 @@
 name := "spark-2-streaming-nosuchmethod-arrowassoc"
 
-version := "1.0"
+version := "1.1"
 
 scalaVersion := "2.11.8"
 
@@ -11,3 +11,5 @@ libraryDependencies ++= {
     "org.apache.spark" %% "spark-streaming" % sparkV % "provided"
   )
 }
+
+//assemblyOption in assembly := (assemblyOption in assembly).value.copy(includeScala = true)
