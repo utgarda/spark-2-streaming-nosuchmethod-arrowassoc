@@ -1,5 +1,7 @@
 # spark-2-streaming-nosuchmethod-arrowassoc
-An illustration of the issue http://stackoverflow.com/questions/36635586/nosuchmethoderror-spark-kafka-java
+An illustration of the following issues: 
+http://stackoverflow.com/questions/39395521/spark-2-0-0-streaming-job-packed-with-sbt-assembly-lacks-scala-runtime-methods
+http://stackoverflow.com/questions/36635586/nosuchmethoderror-spark-kafka-java
 
 I'm not sure where exactly the problem is, so I recreated it as briefly as I could:
 * packaging jobs for Spark 2.0.0 with [sbt-assembly 0.14.3](https://github.com/sbt/sbt-assembly) 
